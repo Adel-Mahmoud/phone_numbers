@@ -37,11 +37,6 @@ CREATE TABLE `networks` (
 -- Dumping data for table `networks`
 --
 
-INSERT INTO `networks` (`net_id`, `network`, `net_date`) VALUES
-(1, 'Vodafone', '2023-01-27'),
-(2, 'Orange', '2023-01-27'),
-(3, 'Etisalat', '2023-01-27'),
-(4, 'We', '2023-01-27');
 
 -- --------------------------------------------------------
 
@@ -60,11 +55,6 @@ CREATE TABLE `numbers` (
 -- Dumping data for table `numbers`
 --
 
-INSERT INTO `numbers` (`num_id`, `number`, `net_id`, `num_date`) VALUES
-(1, '01018646196', 1, '2023-01-30'),
-(2, '01091119111', 1, '2023-01-30'),
-(3, '01095708654', 1, '2023-01-30'),
-(4, '01002790435', 1, '2023-01-30');
 
 -- --------------------------------------------------------
 
